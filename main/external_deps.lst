@@ -198,9 +198,9 @@ if (ENABLE_MEDIAWIKI == YES)
     URL2 = $(OOO_EXTRAS)$(MD5)-$(name)
 
 if (SYSTEM_PYTHON != YES)
-    MD5 = 045fb3440219a1f6923fefdabde63342
-    name = Python-2.7.15.tgz
-    URL1 = https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz
+    MD5 = 27a7919fa8d1364bae766949aaa91a5b
+    name = Python-2.7.17.tgz
+    URL1 = http://www.python.org/ftp/python/2.7.17/Python-2.7.17.tgz
     URL2 = $(OOO_EXTRAS)$(MD5)-$(name)
 
 if (SYSTEM_BOOST != YES)
@@ -239,12 +239,8 @@ if (WITH_CATA_FONTS == YES)
 if (WITH_CATA_FONTS==YES)
     MD5 = 3c90ac73fd13bd79684d9dc073840328
     name = croscorefonts-1.31.0.tar.bz2
-<<<<<<< HEAD
-    URL1 = http://gsdview.appspot.com/chromeos-localmirror/distfiles/$(name)
-=======
     URL1 = https://gsdview.appspot.com/chromeos-localmirror/distfiles/$(name)
     URL2 = $(OOO_EXTRAS)$(MD5)-$(name)
->>>>>>> ec738c1af0... Merged r1859636 and r1859657 from trunk
 
 if (WITH_CATA_FONTS==YES)
     MD5 = 368f114c078f94214a308a74c7e991bc
@@ -290,11 +286,7 @@ if (WITH_CATB_FONTS==YES)
 if (WITH_CATB_FONTS == YES)
     MD5 = 1725634df4bb3dcb1b2c91a6175f8789
     name = GentiumBasic_1102.zip
-<<<<<<< HEAD
-    URL1 = http://software.sil.org/downloads/gentium/GentiumBasic_1102.zip
-=======
     URL1 = https://software.sil.org/downloads/r/gentium/GentiumBasic_1102.zip
->>>>>>> ec738c1af0... Merged r1859636 and r1859657 from trunk
     URL2 = $(OOO_EXTRAS)$(MD5)-$(name)
 
 if (ENABLE_CATEGORY_B==YES && SYSTEM_HYPH!=YES)
