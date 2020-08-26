@@ -102,7 +102,7 @@ curl_MACHINE:="X86"
 curl_MACHINE:="X64"
 .ENDIF
 
-BUILD_DIR=.$/winbuild
+BUILD_DIR=.$/builds
 .IF "$(debug)"==""
 BUILD_ACTION=CC="cl.exe" nmake -f Makefile.vc mode=dll VC=9 EXCFLAGS=$(EXCFLAGS) MACHINE=$(curl_MACHINE)
 .ELSE
