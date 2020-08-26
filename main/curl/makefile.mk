@@ -110,11 +110,11 @@ BUILD_ACTION=CC="cl.exe" nmake -f Makefile.vc mode=dll VC=9 DEBUG=yes EXCFLAGS=$
 .ENDIF
 
 .IF "$(CPUNAME)"=="INTEL"
-OUT2BIN=$(BUILD_DIR)$/../builds/libcurl-vc9-X86-release-dll-ipv6-sspi-winssl-obj-lib/libcurl.dll
-OUT2LIB=$(BUILD_DIR)$/../builds/libcurl-vc9-X86-release-dll-ipv6-sspi-winssl-obj-lib/libcurl.lib
+OUT2BIN=$(BUILD_DIR)$/../builds/libcurl-vc9-X86-release-dll-ipv6-schannel-winssl-obj-lib/libcurl.dll
+OUT2LIB=$(BUILD_DIR)$/../builds/libcurl-vc9-X86-release-dll-ipv6-schannel-winssl-obj-lib/libcurl.lib
 .ELIF "$(CPUNAME)"=="X86_64"
-OUT2BIN=$(BUILD_DIR)$/../builds/libcurl-vc9-X64-release-dll-ipv6-sspi-winssl-obj-lib/libcurl.dll
-OUT2LIB=$(BUILD_DIR)$/../builds/libcurl-vc9-X64-release-dll-ipv6-sspi-winssl-obj-lib/libcurl.lib
+OUT2BIN=$(BUILD_DIR)$/../builds/libcurl-vc9-X64-release-dll-ipv6-schannel-winssl-obj-lib/libcurl.dll
+OUT2LIB=$(BUILD_DIR)$/../builds/libcurl-vc9-X64-release-dll-ipv6-schannel-winssl-obj-lib/libcurl.lib
 .ENDIF
 
 .ENDIF
