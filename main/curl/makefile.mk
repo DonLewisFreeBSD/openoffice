@@ -37,8 +37,8 @@ all:
 
 # --- Files --------------------------------------------------------
 
-TARFILE_NAME=curl-7.66.0
-TARFILE_MD5=8cb2898a9adc106075ac3cdc2b965bf6
+TARFILE_NAME=curl-7.72.0
+TARFILE_MD5=7422feb126df677d2d33294a1fd079ea
 PATCH_FILES=buildssh.patch
 
 #ADDITIONAL_FILES= lib$/config-os2.h lib$/Makefile.os2
